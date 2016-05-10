@@ -13,6 +13,10 @@ public class ExampleUnitTest {
         assertEquals(4, 2 + 2);
     }
     @Test
+    public void sub_isCorrect() throws Exception {
+        assertEquals(4, 6 - 2);
+    }
+    @Test
     public void div_isCorrect() throws Exception {
         assertEquals(1, 2 / 2);
     }
